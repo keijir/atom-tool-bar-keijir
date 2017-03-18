@@ -44,8 +44,8 @@ some button using plugins
 * [browser-plus](https://atom.io/packages/browser-plus)
 
 ## Installation
-Setting > Install > Search [keijir]
 ![Screenshot](https://github.com/keijir/atom-tool-bar-keijir/raw/master/install.png)
+Setting > Install > Search [keijir]
 
 ## License
 The MIT License
