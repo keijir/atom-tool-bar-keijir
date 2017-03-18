@@ -1,0 +1,33 @@
+{
+	"name": "tool-bar-keijir",
+	"version": "0.0.01",
+	"description": "Keijir tool bar",
+    "repository":{
+        "type": "git",
+        "url": "https://github.com/keijir/atom-tool-bar-keijir"
+    },
+	"keywords": [
+		"toolbar",
+		"tool-bar",
+    "keijir"
+	],
+	"license": "MIT",
+	"main": "./lib/tool-bar-keijir",
+	"dependencies": {
+		"atom-package-deps": "^3.0.7",
+    "tool-bar": "1.1.0"
+	},
+	"engines": {
+		"atom": ">0.50.0"
+	},
+	"package-deps": [
+		"tool-bar"
+	],
+	"consumedServices": {
+		"tool-bar": {
+			"versions": {
+				"^0 || ^1": "consumeToolBar"
+			}
+		}
+	}
+}
