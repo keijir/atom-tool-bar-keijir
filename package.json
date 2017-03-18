@@ -2,7 +2,7 @@
   "name": "tool-bar-keijir",
   "version": "0.1.0",
   "description": "Keijir tool bar",
-  "repository": "https://github.com/keijir/atom-tool-bar-keijir",
+  "repository": "https://github.com/keijir/atom-tool-bar-keijir.git",
   "keywords": [
     "toolbar",
     "tool-bar",
