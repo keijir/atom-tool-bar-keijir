@@ -1,7 +1,4 @@
 module.exports =
-  activate: (state) ->
-    require('atom-package-deps').install('tool-bar-keijir')
-
   deactivate: ->
     @toolBar?.removeItems()
 
@@ -30,10 +27,10 @@ module.exports =
         callback: "project-sidebar:toggle"
         tooltip: "プロジェクトサイドバー"
         iconset: "fa"
-        icon: "repo"
 
     if atom.packages.loadedPackages['project-manager']
       @toolBar.addButton
+        icon: "repo"
         callback: "project-manager:list-projects"
         tooltip: "プロジェクトを開く(Alt-Shift-P)"
         iconset: ""
