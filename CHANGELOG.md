@@ -1,3 +1,4 @@
+## 0.3.1 - Add Buttons
 ## 0.3.0 - Add Buttons
 * Context Menu Manager (context-menu-manager:toggle) (requires [context-menu-manager](https://atom.io/packages/context-menu-manager) package)
 * Toggle Command Palette (command-palette:toggle)

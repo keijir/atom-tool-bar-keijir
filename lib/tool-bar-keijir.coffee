@@ -37,16 +37,23 @@ module.exports =
 
         if atom.packages.loadedPackages['project-manager']
             @toolBar.addButton
-                icon: 'repo'
+                icon: 'filing'
                 callback: 'project-manager:list-projects'
                 tooltip: 'プロジェクトを開く(Alt-Shift-P)'
-                iconset: ''
+                iconset: 'ion'
+            @toolBar.addButton
+                icon: 'archive'
+                callback: 'project-manager:save-project'
+                tooltip: 'プロジェクトを保存'
+                iconset: 'ion'
 
         @toolBar.addButton
-            icon: 'folder-open-o'
+            icon: 'folder'
             callback: 'application:add-project-folder'
             tooltip: 'プロジェクトフォルダを追加'
-            iconset: 'fa'
+            iconset: 'ion'
+
+        @toolBar.addSpacer()
 
         if atom.packages.loadedPackages['todo-show']
             @toolBar.addButton
