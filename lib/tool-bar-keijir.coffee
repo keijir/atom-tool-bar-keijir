@@ -13,6 +13,12 @@ module.exports =
             tooltip: 'Open Settings View'
             iconset: 'ion'
 
+        @toolBar.addButton
+                icon: 'dashboard'
+                callback: 'timecop:view'
+                tooltip: 'Timecop'
+                iconset: ''
+
         if atom.packages.loadedPackages['context-menu-manager']
             @toolBar.addButton
                 icon: 'mouse-pointer'

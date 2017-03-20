@@ -8,6 +8,7 @@ keijir customize Tool Bar using [tool-bar](https://atom.io/packages/tool-bar) pa
 
 ## Buttons
 * 設定 (settings-view:open)
+* Timecop (timecop:view)
 * Context Menu Manager (context-menu-manager:toggle) (requires [context-menu-manager](https://atom.io/packages/context-menu-manager) package)
 * Toggle Command Palette (command-palette:toggle)
 * -
