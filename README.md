@@ -13,6 +13,7 @@ keijir customize Tool Bar using [tool-bar](https://atom.io/packages/tool-bar) pa
 * -
 * プロジェクトサイドバー (project-sidebar:toggle) (requires [project-sidebar](https://atom.io/packages/project-sidebar) package)
 * プロジェクトを開く (project-manager:list-projects) (requires [project-manager](https://atom.io/packages/project-manager) package)
+* プロジェクトを保存 (project-manager:save-project) (requires [project-manager](https://atom.io/packages/project-manager) package)
 * todo-show:project (todo-show:find-in-project) (requires [todo-show](https://atom.io/packages/todo-show) package)
 * todo-show:file (todo-show:find-in-open-files) (requires [todo-show](https://atom.io/packages/todo-show) package)
 * -
