@@ -14,10 +14,10 @@ module.exports =
             iconset: 'ion'
 
         @toolBar.addButton
-                icon: 'dashboard'
-                callback: 'timecop:view'
-                tooltip: 'Timecop'
-                iconset: ''
+            icon: 'dashboard'
+            callback: 'timecop:view'
+            tooltip: 'Timecop'
+            iconset: ''
 
         if atom.packages.loadedPackages['context-menu-manager']
             @toolBar.addButton
@@ -171,6 +171,13 @@ module.exports =
                 tooltip: 'markdown-preview(Ctrl+Shift+M)'
                 iconset: ''
                 disable: '!markdown'
+
+        if atom.packages.loadedPackages['minimap']
+            @toolBar.addButton
+                icon: 'map-o'
+                callback: 'minimap:toggle'
+                tooltip: 'Minimap'
+                iconset: 'fa'
 
         @toolBar.addSpacer()
 

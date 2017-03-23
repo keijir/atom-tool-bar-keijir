@@ -1,3 +1,5 @@
+## 0.3.3 - Add Buttons
+* minimap (minimap:toggle) (requires [minimap](https://atom.io/packages/minimap) package)
 ## 0.3.2 - Add Buttons
 * Timecop (timecop:view)
 ## 0.3.1 - Add Buttons
