@@ -172,6 +172,14 @@ module.exports =
                 iconset: ''
                 disable: '!markdown'
 
+        if atom.packages.loadedPackages['markdown-pdf']
+            @toolBar.addButton
+                icon: 'file-pdf-o'
+                callback: 'markdown-pdf:convert'
+                tooltip: 'markdown-pdf'
+                iconset: 'fa'
+
+
         if atom.packages.loadedPackages['minimap']
             @toolBar.addButton
                 icon: 'map-o'

@@ -30,6 +30,7 @@ keijir customize Tool Bar using [tool-bar](https://atom.io/packages/tool-bar) pa
 * テキストの整形 (atom-beautify:beautify-editor) (requires [atom-beautify](https://atom.io/packages/atom-beautify) package)
 * html-preview (atom-html-preview:toggle) (requires [atom-html-preview](https://atom.io/packages/atom-html-preview) package)
 * markdown-preview (markdown-preview-plus:toggle or markdown-preview:toggle) (requires [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus) or [markdown-preview](https://atom.io/packages/markdown-preview) package)
+* markdown-pdf (markdown-pdf:convert) (requires [markdown-pdf](https://atom.io/packages/markdown-pdf) package)
 * minimap (minimap:toggle) (requires [minimap](https://atom.io/packages/minimap) package)
 * -
 * サイドバー (tree-view:toggle)

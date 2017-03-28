@@ -1,9 +1,16 @@
+## 0.3.5 - Add Button
+* markdown-pdf (markdown-pdf:convert) (requires [markdown-pdf](https://atom.io/packages/markdown-pdf) package)
+
 ## 0.3.4 - fix publish
+
 ## 0.3.3 - Add Buttons
 * minimap (minimap:toggle) (requires [minimap](https://atom.io/packages/minimap) package)
+
 ## 0.3.2 - Add Buttons
 * Timecop (timecop:view)
+
 ## 0.3.1 - Add Buttons
+
 ## 0.3.0 - Add Buttons
 * Context Menu Manager (context-menu-manager:toggle) (requires [context-menu-manager](https://atom.io/packages/context-menu-manager) package)
 * Toggle Command Palette (command-palette:toggle)
@@ -18,7 +25,11 @@
 * KeyBingind Resolver (key-binding-resolver:toggle)
 
 ## 0.2.3 - fix README.md
+
 ## 0.2.2 - Update README.md
+
 ## 0.2.1 - Publish Atom package
+
 ## 0.2.0 - Update detect load Package
+
 ## 0.1.0 - First Release
